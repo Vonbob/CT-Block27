@@ -1,0 +1,32 @@
+﻿html,
+body {
+    height: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#home {
+    background: url('../images/creative.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    background-color: rgba(52, 58, 64, 0.94);
+}
+
+#about {
+    background: url('../images/code.jpg') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
