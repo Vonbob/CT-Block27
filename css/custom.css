@@ -5,10 +5,13 @@ body {
 
 .full-height {
     min-height: 100%;
+    padding-top: 56px;
+    padding-bottom: 56px;
 }
 
-#home {
-    background: url('../images/creative.jpg') center center no-repeat;
+.page-section {
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -18,18 +21,31 @@ body {
     background-color: rgba(52, 58, 64, 0.94);
 }
 
-#projects {
-    /*padding-top: 56px;*/
+#home {
+    background-image: url('../images/creative.jpg');
 }
 
 #about {
-    background: url('../images/code.jpg') center center no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    
+    background-image: url('../images/code.jpg');
 }
 
+#goals {
+    background-image: url('../images/goals.jpg');
+}
+
+#projects {
+    background: linear-gradient(rgb(52, 58, 64), rgb(0, 0, 0));
+    display: flex;
+    align-items: center;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.carousel-inner,
+#projects-carousel,
+#projects-carousel img {
+    border-radius: 4px;
+}
 
 
 
